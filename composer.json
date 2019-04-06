@@ -1,0 +1,6 @@
+{
+    "require": {
+        "khicks/myq-php": "^1.0",
+        "khicks/phushover": "^0.0.1"
+    }
+}

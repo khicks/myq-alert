@@ -1,0 +1,98 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
+        "This file is @generated automatically"
+    ],
+    "content-hash": "9e4516f8e9b613539c2c2816eeef445d",
+    "packages": [
+        {
+            "name": "khicks/myq-php",
+            "version": "v1.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/khicks/MyQ-PHP.git",
+                "reference": "1140e876d71594e99c9131f0cd628c3c4c616a0e"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/khicks/MyQ-PHP/zipball/1140e876d71594e99c9131f0cd628c3c4c616a0e",
+                "reference": "1140e876d71594e99c9131f0cd628c3c4c616a0e",
+                "shasum": ""
+            },
+            "require": {
+                "ext-curl": "*",
+                "php": ">=7.2"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "MyQ\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Kevin Hicks",
+                    "email": "kevin@khicks.net",
+                    "homepage": "https://khicks.net",
+                    "role": "Developer"
+                }
+            ],
+            "description": "PHP wrapper for Chamberlain MyQ",
+            "homepage": "https://github.com/khicks/MyQ-PHP",
+            "time": "2019-02-02T01:45:29+00:00"
+        },
+        {
+            "name": "khicks/phushover",
+            "version": "0.0.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/khicks/Phushover.git",
+                "reference": "d74a21f11d14d6d2fe4dbc55762502dcfeaa59e4"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/khicks/Phushover/zipball/d74a21f11d14d6d2fe4dbc55762502dcfeaa59e4",
+                "reference": "d74a21f11d14d6d2fe4dbc55762502dcfeaa59e4",
+                "shasum": ""
+            },
+            "require": {
+                "ext-curl": "*",
+                "php": ">=5.5.0"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Phushover\\": "src/Phushover"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Kevin Hicks",
+                    "email": "kevin@khicks.net",
+                    "homepage": "https://khicks.net",
+                    "role": "Developer"
+                }
+            ],
+            "description": "PHP wrapper for Pushover.net",
+            "homepage": "https://github.com/khicks/Phushover",
+            "time": "2019-01-17T05:00:05+00:00"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "stable",
+    "stability-flags": [],
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": [],
+    "platform-dev": []
+}
